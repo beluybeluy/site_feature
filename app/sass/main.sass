@@ -1,0 +1,32 @@
+@import "veriables"
+@import "mixins"
+@import "fonts"
+@import "header"
+@import "about"
+@import "features"
+@import "design"
+@import "team"
+@import "someNews"
+@import "mail"
+@import "footer"
+@import "mediaqueries"
+
+.container 
+   max-width: 1140px
+   margin: 0 auto
+.title 
+   font: 2.5em/1.2em RobotoBold
+   margin-bottom: 0.8em
+   &_over 
+      font: 1em/1em RobotoMedium
+      color: $main-bg
+      margin-bottom: 0.5em
+      letter-spacing: 0.15em
+   &_color 
+      color: $main-bg
+.descriptions 
+   font: 16px/16px RobotoRegular
+   line-height: 1.5em
+   padding-bottom: 2em
+   color: $txt-color
+   letter-spacing: 0.05em

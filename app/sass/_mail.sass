@@ -1,0 +1,53 @@
+//-----MAIL------------
+.mail 
+   background: #323969
+   padding: 100px 0
+   text-align: center
+   &__color 
+      color: #fff
+   &__form 
+      max-width: 1140px
+      padding: 90px 0 50px 0
+      display: flex
+      flex-wrap: wrap
+      ::-webkit-input-placeholder 
+         color: #fff
+         text-transform: uppercase
+         font: 16px/16px RobotoRegular
+      ::-moz-placeholder 
+         color: #fff
+         text-transform: uppercase
+         font: 16px/16px RobotoRegular
+      :-moz-placeholder 
+         color: #fff
+         text-transform: uppercase
+         font: 16px/16px RobotoRegular
+      :-ms-input-placeholder 
+         color: #fff
+         text-transform: uppercase
+         font: 16px descFont
+      &_item
+         flex: 1 0 200px
+         margin: 15px
+         padding: 1.2em
+         background: #464c77
+         border: 1px solid #999cb4
+         border-radius: 3px
+         font: 16px/16px RobotoRegular
+         color: #fff
+         &:last-child 
+            background: $main-bg
+            text-transform: uppercase
+            font: 16px descFont
+            color: #fff
+            transition: 0.5s
+            &:hover 
+                box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px $main-bg
+                transition: 0.5s
+   &__desc
+      font: 16px/RobotoRegular
+      color: $txt-color
+   
+
+
+//-----END-MAIL-----------
